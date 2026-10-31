@@ -4,7 +4,7 @@
 /* a queue contains positive integer values. */
 typedef struct Queue
 {
-	int* arr;
+	int *arr;
 	int size;
 	int head;
 	int tail;

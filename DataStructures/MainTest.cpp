@@ -332,26 +332,26 @@ bool test2()
 
 }
 
-//code changed so i 
-int main()
-{
-	int choice;
-
-	cout << "Enter test number (1 or 2): ";
-	cin >> choice;
-
-	if (choice == 1)
-	{
-		bool result = test1();
-		cout << (result == 0 ? "\033[1;32m \n****** Part 1 Test 1 Passed ******\033[0m\n \n" : "\033[1;31mPart 1 Test 1 Failed\033[0m\n \n") << endl;
-		return result;
-	}
-	else if (choice == 2)
-	{
-		bool result = test2();
-		cout << (result == 0 ? "\033[1;32m \n****** Part 1 Test 2 Passed ******\033[0m\n \n" : "\033[1;31mPart 1 Test 2 Failed\033[0m\n \n") << endl;
-		return result;
-	}
-
-	return 0;
-}
+//code changed so i can check it, i could figure out the argv and argc in vs 2026 :(
+//int main()
+//{
+//	int choice;
+//
+//	cout << "Enter test number (1 or 2): ";
+//	cin >> choice;
+//
+//	if (choice == 1)
+//	{
+//		bool result = test1();
+//		cout << (result == 0 ? "\033[1;32m \n****** Part 1 Test 1 Passed ******\033[0m\n \n" : "\033[1;31mPart 1 Test 1 Failed\033[0m\n \n") << endl;
+//		return result;
+//	}
+//	else if (choice == 2)
+//	{
+//		bool result = test2();
+//		cout << (result == 0 ? "\033[1;32m \n****** Part 1 Test 2 Passed ******\033[0m\n \n" : "\033[1;31mPart 1 Test 2 Failed\033[0m\n \n") << endl;
+//		return result;
+//	}
+//
+//	return 0;
+//}

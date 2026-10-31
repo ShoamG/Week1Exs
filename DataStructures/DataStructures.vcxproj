@@ -139,11 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="MainTest.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="TestLinkedList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
